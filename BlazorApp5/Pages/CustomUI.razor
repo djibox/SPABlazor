@@ -1,0 +1,44 @@
+﻿@page "/CustomUI"
+@using BlazorApp5.Models
+@using Microsoft.CodeAnalysis.CSharp.Syntax
+<h3>Liste of Amount</h3>
+<div class="badge">
+    @foreach (var item in Budgets)
+    {
+        <span>@item.Name</span>
+        <span>@item.Amount.ToString("C")</span>
+        <input type="range" max="@_totalbudget" step="100" @bind="item.Amount" @bind:event="oninput" class="input-group" />
+        <label class="alert alert-info">@item.Amount</label>
+        <button onkeypress="@Message()" >Save</button>
+        <label hidden="@(info ==string.Empty)" disabled="@(info ==string.Empty)" class="alert alert-info">@info</label>
+
+        <br />
+
+    }
+</div>
+<br />
+
+
+@code {
+    readonly decimal _totalbudget = 1000000;
+    string info = string.Empty;
+
+    public List<BudgetItem> Budgets = new List<BudgetItem>
+{
+            new BudgetItem { Name = "Developers", Amount = 0},
+            new BudgetItem { Name = "Designer", Amount = 0}
+    };
+
+    string Message()
+    {
+        info = "Save successfully in memory like sap4hana ! ! !";
+        return info;
+    }
+
+    string Init()
+    {
+        info = string.Empty;
+        return info;
+    }
+
+}
