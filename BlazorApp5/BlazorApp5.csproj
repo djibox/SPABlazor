@@ -4,9 +4,11 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <AssemblyName>BlazorApp5</AssemblyName>
     <RootNamespace>BlazorApp5</RootNamespace>
+    <UserSecretsId>1a25b7c2-c3d7-4d34-b7db-e2576c38e77a</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.SignalR" Version="1.2.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
   </ItemGroup>

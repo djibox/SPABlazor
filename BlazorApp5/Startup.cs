@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazorApp5.Data;
+using Microsoft.Extensions.Configuration;
 
 namespace BlazorApp5
 {
@@ -28,6 +29,9 @@ namespace BlazorApp5
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddSignalR()
+                .AddAzureSignalR("{{Endpoint=https://demoblazor.service.signalr.net;AccessKey=xogntlipq74TqxG3RGudC6SRkahIlr/JvMy/RrToKk4=;Version=1.0;}}");
+            services.AddSignalR().AddAzureSignalR(Configuration["Azure:SignalR:ConnectionString"]);
             services.AddSingleton<WeatherForecastService>();
         }
 

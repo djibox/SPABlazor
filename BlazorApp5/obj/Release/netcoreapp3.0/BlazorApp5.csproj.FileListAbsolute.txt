@@ -120,3 +120,12 @@ C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\obj\Release\netcoreapp3.0\Blaz
 C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\obj\Release\netcoreapp3.0\BlazorApp5.csproj.CopyComplete
 C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\obj\Release\netcoreapp3.0\BlazorApp5.dll
 C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\obj\Release\netcoreapp3.0\BlazorApp5.pdb
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\MessagePack.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.Azure.SignalR.Common.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.Azure.SignalR.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.Azure.SignalR.Protocols.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
