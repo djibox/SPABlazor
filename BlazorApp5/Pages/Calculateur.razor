@@ -1,0 +1,20 @@
+﻿@page "/Calculateur"
+@using BlazorApp5.Models
+<div class="jumbotron text-center">
+    <h1 class="alert alert-info">Calculateur (+)</h1>
+    <input type="number" @bind="@clc.Val1"/>
+    <input type="number" @bind="@clc.Val2"/>
+    <button class="btn btn-primary" @onclick="Calc">Calcul</button>
+    <label>@resultat</label>
+           </div>
+
+@code {
+    Calcul clc = new Calcul();
+    decimal resultat;
+
+    void Calc()
+    {
+        resultat = clc.Val1 + clc.Val2;
+    }
+
+}

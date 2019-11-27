@@ -1,7 +1,7 @@
 ﻿@page "/CustomUI"
 @using BlazorApp5.Models
 @using Microsoft.CodeAnalysis.CSharp.Syntax
-<h3>Liste of Amount</h3>
+<h3>Salary by Activity (Salaire par activité) : </h3>
 <div class="badge">
     @foreach (var item in Budgets)
     {
@@ -9,8 +9,6 @@
         <span>@item.Amount.ToString("C")</span>
         <input type="range" max="@_totalbudget" step="100" @bind="item.Amount" @bind:event="oninput" class="input-group" />
         <label class="alert alert-info">@item.Amount</label>
-        <button onkeypress="@Message()" >Save</button>
-        <label hidden="@(info ==string.Empty)" disabled="@(info ==string.Empty)" class="alert alert-info">@info</label>
         <br />
 
     }
@@ -39,5 +37,6 @@
         info = string.Empty;
         return info;
     }
+
 
 }

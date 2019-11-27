@@ -129,3 +129,5 @@ C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Micr
 C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\bin\Release\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\obj\Release\netcoreapp3.0\RazorDeclaration\Pages\Calculateur.razor.g.cs
+C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\obj\Release\netcoreapp3.0\Razor\Pages\Calculateur.razor.g.cs
