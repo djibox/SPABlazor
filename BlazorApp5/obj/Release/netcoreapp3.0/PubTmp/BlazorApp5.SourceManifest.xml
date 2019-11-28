@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\leger\source\repos\BlazorApp5\BlazorApp5\obj\Release\netcoreapp3.0\PubTmp\Out\" />
+  <IisApp path="C:\myblazors\SPABlazor\BlazorApp5\obj\Release\netcoreapp3.0\PubTmp\Out\" />
 </sitemanifest>
